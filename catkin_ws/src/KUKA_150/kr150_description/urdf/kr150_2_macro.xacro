@@ -17,11 +17,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/base_link.stl" />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="202"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->
+        <inertia ixx="18026640.942" ixy="-63776.874" ixz="-12034.191" iyy="15517698.140" iyz="-681592.618" izz="202.949"/>
+      </inertial>
     </link>
     <!-- link 1 (A1) -->
     <link name="${prefix}link_1">
@@ -37,11 +37,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_1.stl" />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="113.789"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->
+        <inertia ixx="44256438.988" ixy="1515407.021" ixz="-3751903.667" iyy="38433645.587" iyz="3947019.941" izz="13879163.755"/>
+      </inertial>
     </link>
     <!-- link 2 -->
     <link name="${prefix}link_2">
@@ -57,11 +57,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_2.stl"  />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="128.289"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->      
+        <inertia ixx="222759248.246" ixy="10917339.332" ixz="37965297.844 " iyy="212779494.067 " iyz="55858617.185" izz="26730538.796"/>
+      </inertial>      
     </link>
     <!-- link 3 -->
     <link name="${prefix}link_3">
@@ -77,11 +77,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_3.stl"  />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="55.264" />
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->      
+        <inertia ixx="227283567.242 " ixy="-444134.292" ixz="2398080.124" iyy="212960722.458" iyz="50905692.306" izz="14911487.072"/>
+      </inertial>      
     </link>
     <!-- link 4 -->
     <link name="${prefix}link_4">
@@ -97,11 +97,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_4.stl"  />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="222.414"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->      
+        <inertia ixx="116690317.289 " ixy=" -217478.502" ixz="319180.825 " iyy="85032110.170" iyz="51420359.377" izz="32000704.547"/>
+      </inertial>      
     </link>
     <!-- link 5 -->
     <link name="${prefix}link_5">
@@ -117,11 +117,11 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_5.stl" />
         </geometry>
       </collision>
-      <!--inertial>
-        <mass value="23.085357"/>
+      <inertial>
+        <mass value="9.312"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->      
+        <inertia ixx="56095774.637" ixy="350435.185" ixz="470622.777" iyy="35284894.395" iyz="27055480.349" izz="20872134.322"/>
+      </inertial>      
     </link>
     <!-- link 6 -->
     <link name="${prefix}link_6">
@@ -137,11 +137,12 @@
           <mesh filename="package://kr150_description/meshes/kr150_2/collision/link_6.stl" />
         </geometry>
       </collision>
-      <!--inertial>
+      <inertial>
         <mass value="23.085357"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
-      </inertial-->      
+      </inertial> 
+      
     </link>
     <!-- tool link -->
     <!-- This frame corresponds to the $TOOL coordinate system in KUKA KRC controllers. -->
