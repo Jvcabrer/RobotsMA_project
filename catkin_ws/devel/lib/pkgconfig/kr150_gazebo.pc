@@ -1,0 +1,8 @@
+prefix=/home/jose/Robots final project/catkin_ws/devel
+
+Name: kr150_gazebo
+Description: Description of kr150_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

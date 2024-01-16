@@ -1,0 +1,8 @@
+prefix=/home/jose/Robots final project/catkin_ws/devel
+
+Name: kr150_description
+Description: Description of kr150_description
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
