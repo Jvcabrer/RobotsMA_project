@@ -21,7 +21,7 @@
         <mass value="202"/>
         <!--          origen de esta inercia-->
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="18.02664" ixy="-0.0638'" ixz="--0.012" iyy="15.5177" iyz="-0.6815" izz="0.000202949"/>
+        <inertia ixx="18.02664" ixy="-0.0638" ixz="-0.012" iyy="15.5177" iyz="-0.6815" izz="0.000202949"/>
       </inertial>
     </link>
     <!-- link 1 (A1) -->
@@ -61,7 +61,7 @@
       <inertial>
         <mass value="128.289"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="222.75924" ixy="10.91733" ixz="37.96529 " iyy="212.77949" iyz="55.85861" izz="26.73053"/>
+        <inertia ixx="222.75924" ixy="10.91733" ixz="37.96529" iyy="212.77949" iyz="55.85861" izz="26.73053"/>
       </inertial>      
     </link>
     <!-- link 3 -->
@@ -101,7 +101,7 @@
       <inertial>
         <mass value="222.414"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="116.69031 " ixy=" -0.21747" ixz="0.31918" iyy="85.03211" iyz="51.42035" izz="32.00070"/>
+        <inertia ixx="116.69031" ixy=" -0.21747" ixz="0.31918" iyy="85.03211" iyz="51.42035" izz="32.00070"/>
       </inertial>      
     </link>
     <!-- link 5 -->
@@ -139,9 +139,9 @@
         </geometry>
       </collision>
       <inertial>
-        <mass value="23.085357"/>
+        <mass value="20.815"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="0.343576" ixy="-0.000062" ixz="-0.002079" iyy="0.336217" iyz="-0.000014" izz="0.334050"/>
+        <inertia ixx="5.33544" ixy="-0.000020453" ixz="0.000023961" iyy="3.08644" iyz="2.63404" izz="2.25310"/>
       </inertial> 
       
     </link>
