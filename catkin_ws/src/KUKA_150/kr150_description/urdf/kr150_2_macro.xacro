@@ -19,8 +19,9 @@
       </collision>
       <inertial>
         <mass value="202"/>
+        <!--          origen de esta inercia-->
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="18026640.942" ixy="-63776.874" ixz="-12034.191" iyy="15517698.140" iyz="-681592.618" izz="202.949"/>
+        <inertia ixx="18.02664" ixy="-0.0638'" ixz="--0.012" iyy="15.5177" iyz="-0.6815" izz="0.000202949"/>
       </inertial>
     </link>
     <!-- link 1 (A1) -->
@@ -40,7 +41,7 @@
       <inertial>
         <mass value="113.789"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="44256438.988" ixy="1515407.021" ixz="-3751903.667" iyy="38433645.587" iyz="3947019.941" izz="13879163.755"/>
+        <inertia ixx="44.25643" ixy="1.51540" ixz="-3.75190" iyy="38.43364" iyz="3.94701" izz="13.87916"/>
       </inertial>
     </link>
     <!-- link 2 -->
@@ -60,7 +61,7 @@
       <inertial>
         <mass value="128.289"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="222759248.246" ixy="10917339.332" ixz="37965297.844 " iyy="212779494.067 " iyz="55858617.185" izz="26730538.796"/>
+        <inertia ixx="222.75924" ixy="10.91733" ixz="37.96529 " iyy="212.77949" iyz="55.85861" izz="26.73053"/>
       </inertial>      
     </link>
     <!-- link 3 -->
@@ -80,7 +81,7 @@
       <inertial>
         <mass value="55.264" />
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="227283567.242 " ixy="-444134.292" ixz="2398080.124" iyy="212960722.458" iyz="50905692.306" izz="14911487.072"/>
+        <inertia ixx="227.28356" ixy="-0.44413" ixz="2.39808" iyy="212.96072" iyz="50.90569" izz="14.91148"/>
       </inertial>      
     </link>
     <!-- link 4 -->
@@ -100,7 +101,7 @@
       <inertial>
         <mass value="222.414"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="116690317.289 " ixy=" -217478.502" ixz="319180.825 " iyy="85032110.170" iyz="51420359.377" izz="32000704.547"/>
+        <inertia ixx="116.69031 " ixy=" -0.21747" ixz="0.31918" iyy="85.03211" iyz="51.42035" izz="32.00070"/>
       </inertial>      
     </link>
     <!-- link 5 -->
@@ -120,7 +121,7 @@
       <inertial>
         <mass value="9.312"/>
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <inertia ixx="56095774.637" ixy="350435.185" ixz="470622.777" iyy="35284894.395" iyz="27055480.349" izz="20872134.322"/>
+        <inertia ixx="56.09577" ixy="0.35043" ixz="0.47062" iyy="35.2848" iyz="27.05548" izz="20.8721"/>
       </inertial>      
     </link>
     <!-- link 6 -->
@@ -157,6 +158,7 @@
       <child link="${prefix}link_1"/>
       <axis xyz="0 0 -1"/>
       <limit effort="0" lower="${radians(-185)}" upper="${radians(185)}" velocity="${radians(110)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 2 (A2) -->
     <joint name="${prefix}joint_a2" type="revolute">
@@ -165,6 +167,7 @@
       <child link="${prefix}link_2"/>
       <axis xyz="0 1 0"/>
       <limit effort="0" lower="${radians(-146)}" upper="${radians(0)}" velocity="${radians(110)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 3 (A3) -->
     <joint name="${prefix}joint_a3" type="revolute">
@@ -173,6 +176,7 @@
       <child link="${prefix}link_3"/>
       <axis xyz="0 1 0"/>
       <limit effort="0" lower="${radians(-119)}" upper="${radians(155)}" velocity="${radians(100)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 4 (A4) -->
     <joint name="${prefix}joint_a4" type="revolute">
@@ -181,6 +185,7 @@
       <child link="${prefix}link_4"/>
       <axis xyz="-1 0 0"/>
       <limit effort="0" lower="${radians(-350)}" upper="${radians(350)}" velocity="${radians(170)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 5 (A5) -->
     <joint name="${prefix}joint_a5" type="revolute">
@@ -189,6 +194,7 @@
       <child link="${prefix}link_5"/>
       <axis xyz="0 1 0"/>
       <limit effort="0" lower="${radians(-125)}" upper="${radians(125)}" velocity="${radians(170)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 6 (A6) -->
     <joint name="${prefix}joint_a6" type="revolute">
@@ -197,6 +203,7 @@
       <child link="${prefix}link_6"/>
       <axis xyz="-1 0 0"/>
       <limit effort="0" lower="${radians(-350)}" upper="${radians(350)}" velocity="${radians(238)}"/>
+      <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- tool frame - fixed frame -->
     <joint name="${prefix}joint_a6-flange" type="fixed">
