@@ -7,3 +7,4 @@
 # new environment variables
 
 # modified environment variables
+export PWD='/home/jose/Robots final project/catkin_ws/build'

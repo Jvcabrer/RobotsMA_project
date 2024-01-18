@@ -18,7 +18,7 @@
         </geometry>
       </collision>
       <inertial>
-        <mass value="202"/>
+        <mass value="202.0"/>
         <!--          origen de esta inercia-->
         <origin rpy="0 0 0" xyz="0 0 0"/>
         <inertia ixx="18.02664" ixy="-0.0638" ixz="-0.012" iyy="15.5177" iyz="-0.6815" izz="0.000202949"/>
