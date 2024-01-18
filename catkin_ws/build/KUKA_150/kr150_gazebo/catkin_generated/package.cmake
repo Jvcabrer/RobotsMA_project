@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "kr150_gazebo")
 set(kr150_gazebo_VERSION "0.0.0")
-set(kr150_gazebo_MAINTAINER "jose <jose@todo.todo>")
+set(kr150_gazebo_MAINTAINER "user <user@todo.todo>")
 set(kr150_gazebo_PACKAGE_FORMAT "2")
 set(kr150_gazebo_BUILD_DEPENDS "rospy" "std_msgs")
 set(kr150_gazebo_BUILD_EXPORT_DEPENDS "rospy" "std_msgs")

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
 <xacro:include filename="$(find kr150_description)/urdf/kr150_2_macro.xacro"/>
-<xacro:macro name="kuka_kr150_robot" params="prefix">
+<xacro:macro name="kuka_kr150_2_robot" params="prefix">
 
   <!-- get URDF description of KUKA KR150 model -->
   <xacro:kuka_kr150_2 prefix="${prefix}" />

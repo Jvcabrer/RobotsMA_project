@@ -29,7 +29,6 @@
   
   <!-- send robot URDF to ROS param server,
        and spawn robot in Gazebo, along with necessary ROS nodes -->
-  <include file="$(find kr150_gazebo)/launch/spawn_kr150.launch">
-  </include>
+  <include file="$(find kr150_gazebo)/launch/spawn_kr150.launch"/>
   
 </launch>

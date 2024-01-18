@@ -3,7 +3,7 @@
   <!-- KR10 -->
   <xacro:include filename="$(find kr150_gazebo)/urdf/gazebo_transmission.xacro"/>
   
-  <xacro:kuka_kr150_robot prefix=""/>
+  <xacro:kuka_kr150_2_robot prefix=""/>
 
   <!-- Fix robot to Gazebo world -->
   <link name="world"/>
