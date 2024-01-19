@@ -67,14 +67,14 @@ set(roboticsgroup_gazebo_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roboticsgroup_gazebo_plugins_SOURCE_PREFIX /home/jose/Robots final project/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins)
-  set(roboticsgroup_gazebo_plugins_DEVEL_PREFIX /home/jose/Robots final project/catkin_ws/devel)
+  set(roboticsgroup_gazebo_plugins_SOURCE_PREFIX /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins)
+  set(roboticsgroup_gazebo_plugins_DEVEL_PREFIX /home/jose/Descargas/construct/catkin_ws/devel)
   set(roboticsgroup_gazebo_plugins_INSTALL_PREFIX "")
   set(roboticsgroup_gazebo_plugins_PREFIX ${roboticsgroup_gazebo_plugins_DEVEL_PREFIX})
 else()
   set(roboticsgroup_gazebo_plugins_SOURCE_PREFIX "")
   set(roboticsgroup_gazebo_plugins_DEVEL_PREFIX "")
-  set(roboticsgroup_gazebo_plugins_INSTALL_PREFIX /home/jose/Robots final project/catkin_ws/install)
+  set(roboticsgroup_gazebo_plugins_INSTALL_PREFIX /home/jose/Descargas/construct/catkin_ws/install)
   set(roboticsgroup_gazebo_plugins_PREFIX ${roboticsgroup_gazebo_plugins_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jose/Robots final project/catkin_ws/install/lib;/home/jose/Robots final project/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jose/Descargas/construct/catkin_ws/install/lib;/home/jose/Descargas/construct/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

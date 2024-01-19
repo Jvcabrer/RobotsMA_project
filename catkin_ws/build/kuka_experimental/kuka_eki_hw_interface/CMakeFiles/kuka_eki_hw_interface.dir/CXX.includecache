@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_eki_hw_interface/include/kuka_eki_hw_interface/kuka_eki_hw_interface.h
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_eki_hw_interface/include/kuka_eki_hw_interface/kuka_eki_hw_interface.h
 vector
 -
 string
@@ -24,7 +24,7 @@ hardware_interface/joint_state_interface.h
 hardware_interface/robot_hw.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_eki_hw_interface/src/kuka_eki_hw_interface.cpp
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_eki_hw_interface/src/kuka_eki_hw_interface.cpp
 boost/array.hpp
 -
 boost/bind.hpp

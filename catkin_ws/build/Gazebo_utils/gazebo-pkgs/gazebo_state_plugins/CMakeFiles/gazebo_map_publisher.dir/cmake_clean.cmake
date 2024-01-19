@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_map_publisher.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_map_publisher.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_map_publisher.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_map_publisher.so"
   "CMakeFiles/gazebo_map_publisher.dir/src/GazeboMapPublisher.cpp.o"
 )
 

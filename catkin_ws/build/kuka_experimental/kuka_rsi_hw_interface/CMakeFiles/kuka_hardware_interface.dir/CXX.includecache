@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/kuka_hardware_interface.h
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/kuka_hardware_interface.h
 vector
 -
 string
@@ -34,19 +34,19 @@ kuka_rsi_hw_interface/rsi_state.h
 kuka_rsi_hw_interface/rsi_command.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/rsi_command.h
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/rsi_command.h
 tinyxml.h
 -
 vector
 -
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/rsi_state.h
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/rsi_state.h
 string
 -
 tinyxml.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/udp_server.h
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/kuka_rsi_hw_interface/udp_server.h
 iostream
 -
 string
@@ -74,7 +74,7 @@ netinet/in.h
 arpa/inet.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/src/kuka_hardware_interface.cpp
+/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_hw_interface/src/kuka_hardware_interface.cpp
 kuka_rsi_hw_interface/kuka_hardware_interface.h
 -
 stdexcept

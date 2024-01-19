@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/gazebo_test_tools/set_gazebo_physics_client.pdb"
   "CMakeFiles/set_gazebo_physics_client.dir/src/SetGazeboPhysicsClient.cpp.o"
 )
 

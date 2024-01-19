@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libkuka_hardware_interface.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libkuka_hardware_interface.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libkuka_hardware_interface.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libkuka_hardware_interface.so"
   "CMakeFiles/kuka_hardware_interface.dir/src/kuka_hardware_interface.cpp.o"
 )
 

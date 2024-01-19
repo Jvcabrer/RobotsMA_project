@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_simulator
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_rsi_simulator/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulatorConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulatorConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulatorConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_rsi_simulator/catkin_generated/installspace/kuka_rsi_simulatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_rsi_simulator" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_rsi_simulator" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kuka_rsi_simulator/scripts" TYPE PROGRAM FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/scripts/kuka_rsi_simulator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kuka_rsi_simulator/scripts" TYPE PROGRAM FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/scripts/kuka_rsi_simulator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_rsi_simulator" TYPE DIRECTORY FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_rsi_simulator" TYPE DIRECTORY FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_rsi_simulator/launch")
 endif()
 

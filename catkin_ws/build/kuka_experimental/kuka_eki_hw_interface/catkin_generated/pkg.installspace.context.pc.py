@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/usr/include".split(';') if "/usr/include" !=
 PROJECT_CATKIN_DEPENDS = "controller_manager;hardware_interface;joint_limits_interface;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "/usr/lib/x86_64-linux-gnu/libtinyxml.so".split(';') if "/usr/lib/x86_64-linux-gnu/libtinyxml.so" != "" else []
 PROJECT_NAME = "kuka_eki_hw_interface"
-PROJECT_SPACE_DIR = "/home/jose/Robots final project/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/jose/Descargas/construct/catkin_ws/install"
 PROJECT_VERSION = "0.0.1"

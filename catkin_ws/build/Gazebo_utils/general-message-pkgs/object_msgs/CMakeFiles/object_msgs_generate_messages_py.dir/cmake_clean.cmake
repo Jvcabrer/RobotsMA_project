@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/_Object.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/_ObjectPose.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/__init__.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/_ObjectInfo.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/_RegisterObject.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/__init__.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/_Object.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/_ObjectPose.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/msg/__init__.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/_ObjectInfo.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/_RegisterObject.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/object_msgs/srv/__init__.py"
   "CMakeFiles/object_msgs_generate_messages_py"
 )
 

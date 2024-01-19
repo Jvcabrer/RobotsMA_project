@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_test_tools.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_test_tools.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_test_tools.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_test_tools.so"
   "CMakeFiles/gazebo_test_tools.dir/src/cube_spawner.cpp.o"
 )
 

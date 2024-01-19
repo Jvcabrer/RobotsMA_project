@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libimu_sensor_controller.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libimu_sensor_controller.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libimu_sensor_controller.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libimu_sensor_controller.so"
   "CMakeFiles/imu_sensor_controller.dir/src/imu_sensor_controller.cpp.o"
 )
 

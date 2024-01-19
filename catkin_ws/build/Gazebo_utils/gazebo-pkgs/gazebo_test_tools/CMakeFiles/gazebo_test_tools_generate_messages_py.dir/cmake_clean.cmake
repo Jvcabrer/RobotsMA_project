@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/gazebo_test_tools/srv/_RecognizeGazeboObject.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/gazebo_test_tools/srv/__init__.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/gazebo_test_tools/srv/_RecognizeGazeboObject.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/gazebo_test_tools/srv/__init__.py"
   "CMakeFiles/gazebo_test_tools_generate_messages_py"
 )
 

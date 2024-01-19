@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/gazebo_grasp_plugin_ros/msg/_GazeboGraspEvent.py"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/python3/dist-packages/gazebo_grasp_plugin_ros/msg/__init__.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/gazebo_grasp_plugin_ros/msg/_GazeboGraspEvent.py"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/python3/dist-packages/gazebo_grasp_plugin_ros/msg/__init__.py"
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_py"
 )
 

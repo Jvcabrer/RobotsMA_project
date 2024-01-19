@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros/manifest.l"
-  "/home/jose/Robots final project/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.l"
+  "/home/jose/Descargas/construct/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros/manifest.l"
+  "/home/jose/Descargas/construct/catkin_ws/devel/share/roseus/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.l"
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_eus"
 )
 

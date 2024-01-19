@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.js"
+  "/home/jose/Descargas/construct/catkin_ws/devel/share/gennodejs/ros/gazebo_grasp_plugin_ros/msg/GazeboGraspEvent.js"
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_nodejs"
 )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/include/imu_sensor_controller/imu_sensor_controller.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/include/imu_sensor_controller/imu_sensor_controller.h
 controller_interface/controller.h
 -
 hardware_interface/imu_sensor_interface.h
@@ -18,9 +18,9 @@ sensor_msgs/Imu.h
 realtime_tools/realtime_publisher.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/src/imu_sensor_controller.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/src/imu_sensor_controller.cpp
 imu_sensor_controller/imu_sensor_controller.h
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/src/imu_sensor_controller/imu_sensor_controller.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/imu_sensor_controller/src/imu_sensor_controller/imu_sensor_controller.h
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp

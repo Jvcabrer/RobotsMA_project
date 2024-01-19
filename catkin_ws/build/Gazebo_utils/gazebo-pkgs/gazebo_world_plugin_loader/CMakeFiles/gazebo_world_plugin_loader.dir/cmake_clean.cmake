@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_world_plugin_loader.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_world_plugin_loader.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_world_plugin_loader.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_world_plugin_loader.so"
   "CMakeFiles/gazebo_world_plugin_loader.dir/src/GazeboPluginLoader.cpp.o"
 )
 

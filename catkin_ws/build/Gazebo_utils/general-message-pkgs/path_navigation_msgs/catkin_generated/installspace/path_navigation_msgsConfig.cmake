@@ -67,14 +67,14 @@ set(path_navigation_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(path_navigation_msgs_SOURCE_PREFIX /home/jose/Robots final project/catkin_ws/src/Gazebo_utils/general-message-pkgs/path_navigation_msgs)
-  set(path_navigation_msgs_DEVEL_PREFIX /home/jose/Robots final project/catkin_ws/devel)
+  set(path_navigation_msgs_SOURCE_PREFIX /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/general-message-pkgs/path_navigation_msgs)
+  set(path_navigation_msgs_DEVEL_PREFIX /home/jose/Descargas/construct/catkin_ws/devel)
   set(path_navigation_msgs_INSTALL_PREFIX "")
   set(path_navigation_msgs_PREFIX ${path_navigation_msgs_DEVEL_PREFIX})
 else()
   set(path_navigation_msgs_SOURCE_PREFIX "")
   set(path_navigation_msgs_DEVEL_PREFIX "")
-  set(path_navigation_msgs_INSTALL_PREFIX /home/jose/Robots final project/catkin_ws/install)
+  set(path_navigation_msgs_INSTALL_PREFIX /home/jose/Descargas/construct/catkin_ws/install)
   set(path_navigation_msgs_PREFIX ${path_navigation_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jose/Robots final project/catkin_ws/install/lib;/home/jose/Robots final project/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jose/Descargas/construct/catkin_ws/install/lib;/home/jose/Descargas/construct/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

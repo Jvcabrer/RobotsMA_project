@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/devel/include/gazebo_grasp_plugin_ros/GazeboGraspEvent.h
+/home/jose/Descargas/construct/catkin_ws/devel/include/gazebo_grasp_plugin_ros/GazeboGraspEvent.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/src/grasp_event_republisher.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin_ros/src/grasp_event_republisher.cpp
 gazebo/transport/transport.hh
 -
 gazebo_grasp_plugin/msgs/grasp_event.pb.h

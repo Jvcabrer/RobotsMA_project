@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_state_plugins/include/gazebo_state_plugins/GazeboMapPublisher.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_state_plugins/include/gazebo_state_plugins/GazeboMapPublisher.h
 ros/ros.h
 -
 gazebo/gazebo.hh
@@ -22,7 +22,7 @@ nav_msgs/GetMapResponse.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_state_plugins/src/GazeboMapPublisher.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_state_plugins/src/GazeboMapPublisher.cpp
 gazebo_state_plugins/GazeboMapPublisher.h
 -
 gazebo_version_helpers/GazeboVersionHelpers.h
@@ -40,7 +40,7 @@ nav_msgs/MapMetaData.h
 std_msgs/Float64.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
 gazebo/gazebo.hh
 -
 

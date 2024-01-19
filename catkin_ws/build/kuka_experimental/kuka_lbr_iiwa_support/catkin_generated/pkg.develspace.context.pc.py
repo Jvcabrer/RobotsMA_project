@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kuka_lbr_iiwa_support"
-PROJECT_SPACE_DIR = "/home/jose/Robots final project/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/jose/Descargas/construct/catkin_ws/devel"
 PROJECT_VERSION = "0.1.0"

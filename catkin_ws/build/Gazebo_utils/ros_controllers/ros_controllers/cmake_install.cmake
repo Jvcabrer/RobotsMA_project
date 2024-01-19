@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/ros_controllers
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/ros_controllers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_controllers" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/ros_controllers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_controllers" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/ros_controllers/package.xml")
 endif()
 

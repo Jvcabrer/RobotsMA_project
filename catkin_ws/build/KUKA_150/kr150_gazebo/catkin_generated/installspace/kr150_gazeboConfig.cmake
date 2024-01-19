@@ -67,14 +67,14 @@ set(kr150_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kr150_gazebo_SOURCE_PREFIX /home/jose/Robots final project/catkin_ws/src/KUKA_150/kr150_gazebo)
-  set(kr150_gazebo_DEVEL_PREFIX /home/jose/Robots final project/catkin_ws/devel)
+  set(kr150_gazebo_SOURCE_PREFIX /home/jose/Descargas/construct/catkin_ws/src/KUKA_150/kr150_gazebo)
+  set(kr150_gazebo_DEVEL_PREFIX /home/jose/Descargas/construct/catkin_ws/devel)
   set(kr150_gazebo_INSTALL_PREFIX "")
   set(kr150_gazebo_PREFIX ${kr150_gazebo_DEVEL_PREFIX})
 else()
   set(kr150_gazebo_SOURCE_PREFIX "")
   set(kr150_gazebo_DEVEL_PREFIX "")
-  set(kr150_gazebo_INSTALL_PREFIX /home/jose/Robots final project/catkin_ws/install)
+  set(kr150_gazebo_INSTALL_PREFIX /home/jose/Descargas/construct/catkin_ws/install)
   set(kr150_gazebo_PREFIX ${kr150_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jose/Robots final project/catkin_ws/install/lib;/home/jose/Robots final project/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jose/Descargas/construct/catkin_ws/install/lib;/home/jose/Descargas/construct/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

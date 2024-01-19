@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/gripper_action_controller.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/gripper_action_controller.h
 cassert
 -
 stdexcept
@@ -38,9 +38,9 @@ gripper_action_controller/hardware_interface_adapter.h
 gripper_action_controller/gripper_action_controller_impl.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/gripper_action_controller_impl.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/gripper_action_controller_impl.h
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/hardware_interface_adapter.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/hardware_interface_adapter.h
 cassert
 -
 string
@@ -58,7 +58,7 @@ control_toolbox/pid.h
 hardware_interface/joint_command_interface.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/src/gripper_action_controller.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/src/gripper_action_controller.cpp
 pluginlib/class_list_macros.hpp
 -
 gripper_action_controller/gripper_action_controller.h

@@ -1,4 +1,4 @@
-prefix=/home/jose/Robots final project/catkin_ws/install
+prefix=/home/jose/Descargas/construct/catkin_ws/install
 
 Name: kuka_eki_hw_interface
 Description: Description of kuka_eki_hw_interface

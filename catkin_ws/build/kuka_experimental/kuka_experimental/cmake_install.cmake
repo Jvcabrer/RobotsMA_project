@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_experimental
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_experimental
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_experimental" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_experimental/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_experimental" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_experimental/package.xml")
 endif()
 

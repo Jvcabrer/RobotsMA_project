@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/kuka_rsi_hw_interface/kuka_hardware_interface_node"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/kuka_rsi_hw_interface/kuka_hardware_interface_node.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/kuka_rsi_hw_interface/kuka_hardware_interface_node"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/kuka_rsi_hw_interface/kuka_hardware_interface_node.pdb"
   "CMakeFiles/kuka_hardware_interface_node.dir/src/kuka_hardware_interface_node.cpp.o"
 )
 

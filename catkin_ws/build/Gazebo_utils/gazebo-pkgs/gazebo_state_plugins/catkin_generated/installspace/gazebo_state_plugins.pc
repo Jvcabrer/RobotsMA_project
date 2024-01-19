@@ -1,4 +1,4 @@
-prefix=/home/jose/Robots final project/catkin_ws/install
+prefix=/home/jose/Descargas/construct/catkin_ws/install
 
 Name: gazebo_state_plugins
 Description: Description of gazebo_state_plugins

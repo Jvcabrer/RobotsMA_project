@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/src/mimic_joint_plugin.cpp" "/home/jose/Robots final project/catkin_ws/build/Gazebo_utils/roboticsgroup_gazebo_plugins/CMakeFiles/roboticsgroup_gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o"
+  "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/src/mimic_joint_plugin.cpp" "/home/jose/Descargas/construct/catkin_ws/build/Gazebo_utils/roboticsgroup_gazebo_plugins/CMakeFiles/roboticsgroup_gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,7 +37,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
-  "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/include"
+  "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/include"
   "/opt/ros/noetic/include"
   "/usr/include/simbody"
   "/usr/include/ignition/math6"

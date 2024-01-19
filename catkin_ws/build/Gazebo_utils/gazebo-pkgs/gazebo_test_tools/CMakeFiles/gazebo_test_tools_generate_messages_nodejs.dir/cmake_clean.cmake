@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/share/gennodejs/ros/gazebo_test_tools/srv/RecognizeGazeboObject.js"
+  "/home/jose/Descargas/construct/catkin_ws/devel/share/gennodejs/ros/gazebo_test_tools/srv/RecognizeGazeboObject.js"
   "CMakeFiles/gazebo_test_tools_generate_messages_nodejs"
 )
 

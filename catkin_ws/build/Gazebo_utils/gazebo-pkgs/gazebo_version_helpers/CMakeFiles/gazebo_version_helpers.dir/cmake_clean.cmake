@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_version_helpers.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_version_helpers.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_version_helpers.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_version_helpers.so"
   "CMakeFiles/gazebo_version_helpers.dir/src/GazeboVersionHelpers.cpp.o"
 )
 

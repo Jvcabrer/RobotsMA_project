@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_object_info.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgazebo_object_info.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_object_info.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgazebo_object_info.so"
   "CMakeFiles/gazebo_object_info.dir/src/GazeboObjectInfo.cpp.o"
 )
 

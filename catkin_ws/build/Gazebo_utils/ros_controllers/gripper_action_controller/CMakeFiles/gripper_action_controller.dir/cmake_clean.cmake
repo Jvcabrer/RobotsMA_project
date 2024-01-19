@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgripper_action_controller.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libgripper_action_controller.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgripper_action_controller.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgripper_action_controller.so"
   "CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o"
 )
 

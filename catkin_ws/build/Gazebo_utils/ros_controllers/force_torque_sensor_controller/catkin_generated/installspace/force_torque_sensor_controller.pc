@@ -1,4 +1,4 @@
-prefix=/home/jose/Robots final project/catkin_ws/install
+prefix=/home/jose/Descargas/construct/catkin_ws/install
 
 Name: force_torque_sensor_controller
 Description: Description of force_torque_sensor_controller

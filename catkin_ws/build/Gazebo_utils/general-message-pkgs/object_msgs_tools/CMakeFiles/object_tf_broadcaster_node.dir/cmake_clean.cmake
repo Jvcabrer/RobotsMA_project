@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/object_msgs_tools/object_tf_broadcaster_node.pdb"
   "CMakeFiles/object_tf_broadcaster_node.dir/src/object_tf_broadcaster_node.cpp.o"
 )
 

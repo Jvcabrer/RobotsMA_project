@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libfake_object_recognizer.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libfake_object_recognizer.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libfake_object_recognizer.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libfake_object_recognizer.so"
   "CMakeFiles/fake_object_recognizer.dir/src/FakeObjectRecognizer.cpp.o"
 )
 

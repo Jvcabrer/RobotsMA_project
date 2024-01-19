@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"object_msgs_tools\" -Dobject_msgs_tools_EXPORTS
 
-CXX_INCLUDES = -I"/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/general-message-pkgs/object_msgs_tools/include" -I"/home/jose/Robots final project/catkin_ws/devel/include" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/general-message-pkgs/object_msgs_tools/include -I/home/jose/Descargas/construct/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

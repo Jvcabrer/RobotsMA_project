@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "kr150_master")
 set(kr150_master_VERSION "0.0.0")
-set(kr150_master_MAINTAINER "jose <jose@todo.todo>")
+set(kr150_master_MAINTAINER "user <user@todo.todo>")
 set(kr150_master_PACKAGE_FORMAT "2")
 set(kr150_master_BUILD_DEPENDS "rospy" "std_msgs")
 set(kr150_master_BUILD_EXPORT_DEPENDS "rospy" "std_msgs")

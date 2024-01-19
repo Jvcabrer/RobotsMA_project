@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/object_msgs_tools/register_object_client"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/object_msgs_tools/register_object_client.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/object_msgs_tools/register_object_client"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/object_msgs_tools/register_object_client.pdb"
   "CMakeFiles/register_object_client.dir/src/register_object_client.cpp.o"
 )
 

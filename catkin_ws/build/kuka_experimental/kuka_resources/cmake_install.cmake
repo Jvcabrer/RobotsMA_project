@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_resources
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_resources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resources.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resources.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_resources/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_resources/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE DIRECTORY FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_resources/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE DIRECTORY FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_resources/urdf")
 endif()
 

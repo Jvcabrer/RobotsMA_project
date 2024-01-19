@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/devel/include/object_msgs/RegisterObject.h
+/home/jose/Descargas/construct/catkin_ws/devel/include/object_msgs/RegisterObject.h
 ros/service_traits.h
 -
 object_msgs/RegisterObjectRequest.h
@@ -14,7 +14,7 @@ object_msgs/RegisterObjectRequest.h
 object_msgs/RegisterObjectResponse.h
 -
 
-/home/jose/Robots final project/catkin_ws/devel/include/object_msgs/RegisterObjectRequest.h
+/home/jose/Descargas/construct/catkin_ws/devel/include/object_msgs/RegisterObjectRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/jose/Robots final project/catkin_ws/devel/include/object_msgs/RegisterObjectResponse.h
+/home/jose/Descargas/construct/catkin_ws/devel/include/object_msgs/RegisterObjectResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/general-message-pkgs/object_msgs_tools/src/register_object_client.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/general-message-pkgs/object_msgs_tools/src/register_object_client.cpp
 ros/ros.h
 -
 object_msgs/RegisterObject.h

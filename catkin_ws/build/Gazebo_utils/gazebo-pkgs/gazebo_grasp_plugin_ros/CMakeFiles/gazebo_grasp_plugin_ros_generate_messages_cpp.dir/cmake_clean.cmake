@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/include/gazebo_grasp_plugin_ros/GazeboGraspEvent.h"
+  "/home/jose/Descargas/construct/catkin_ws/devel/include/gazebo_grasp_plugin_ros/GazeboGraspEvent.h"
   "CMakeFiles/gazebo_grasp_plugin_ros_generate_messages_cpp"
 )
 

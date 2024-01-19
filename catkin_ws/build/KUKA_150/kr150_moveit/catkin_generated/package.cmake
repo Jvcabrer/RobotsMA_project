@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "kr150_moveit")
 set(kr150_moveit_VERSION "0.0.0")
-set(kr150_moveit_MAINTAINER "jose <jose@todo.todo>")
+set(kr150_moveit_MAINTAINER "user <user@todo.todo>")
 set(kr150_moveit_PACKAGE_FORMAT "2")
 set(kr150_moveit_BUILD_DEPENDS "rospy" "std_msgs")
 set(kr150_moveit_BUILD_EXPORT_DEPENDS "rospy" "std_msgs")

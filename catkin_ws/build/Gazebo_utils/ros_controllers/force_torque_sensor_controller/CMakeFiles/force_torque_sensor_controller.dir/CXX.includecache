@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/include/force_torque_sensor_controller/force_torque_sensor_controller.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/include/force_torque_sensor_controller/force_torque_sensor_controller.h
 controller_interface/controller.h
 -
 geometry_msgs/WrenchStamped.h
@@ -20,9 +20,9 @@ pluginlib/class_list_macros.hpp
 realtime_tools/realtime_publisher.h
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/src/force_torque_sensor_controller.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/src/force_torque_sensor_controller.cpp
 force_torque_sensor_controller/force_torque_sensor_controller.h
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/src/force_torque_sensor_controller/force_torque_sensor_controller.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/force_torque_sensor_controller/src/force_torque_sensor_controller/force_torque_sensor_controller.h
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp

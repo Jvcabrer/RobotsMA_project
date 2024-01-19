@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;gazebo_ros;gazebo_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lgazebo_world_plugin_loader".split(';') if "-lgazebo_world_plugin_loader" != "" else []
 PROJECT_NAME = "gazebo_world_plugin_loader"
-PROJECT_SPACE_DIR = "/home/jose/Robots final project/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/jose/Descargas/construct/catkin_ws/install"
 PROJECT_VERSION = "1.0.2"

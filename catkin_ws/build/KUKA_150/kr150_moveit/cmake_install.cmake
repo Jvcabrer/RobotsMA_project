@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/KUKA_150/kr150_moveit
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/KUKA_150/kr150_moveit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_moveit/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveitConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveitConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveitConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_moveit/catkin_generated/installspace/kr150_moveitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_moveit" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/KUKA_150/kr150_moveit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_moveit" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/KUKA_150/kr150_moveit/package.xml")
 endif()
 

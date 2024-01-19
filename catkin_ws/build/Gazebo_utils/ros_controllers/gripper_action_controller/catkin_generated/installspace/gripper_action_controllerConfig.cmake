@@ -67,14 +67,14 @@ set(gripper_action_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gripper_action_controller_SOURCE_PREFIX /home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller)
-  set(gripper_action_controller_DEVEL_PREFIX /home/jose/Robots final project/catkin_ws/devel)
+  set(gripper_action_controller_SOURCE_PREFIX /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller)
+  set(gripper_action_controller_DEVEL_PREFIX /home/jose/Descargas/construct/catkin_ws/devel)
   set(gripper_action_controller_INSTALL_PREFIX "")
   set(gripper_action_controller_PREFIX ${gripper_action_controller_DEVEL_PREFIX})
 else()
   set(gripper_action_controller_SOURCE_PREFIX "")
   set(gripper_action_controller_DEVEL_PREFIX "")
-  set(gripper_action_controller_INSTALL_PREFIX /home/jose/Robots final project/catkin_ws/install)
+  set(gripper_action_controller_INSTALL_PREFIX /home/jose/Descargas/construct/catkin_ws/install)
   set(gripper_action_controller_PREFIX ${gripper_action_controller_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jose/Robots final project/catkin_ws/install/lib;/home/jose/Robots final project/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/jose/Descargas/construct/catkin_ws/install/lib;/home/jose/Descargas/construct/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

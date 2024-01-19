@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libobject_msgs_tools.pdb"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/libobject_msgs_tools.so"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libobject_msgs_tools.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/libobject_msgs_tools.so"
   "CMakeFiles/object_msgs_tools.dir/src/ObjectFunctions.cpp.o"
   "CMakeFiles/object_msgs_tools.dir/src/ObjectTFBroadcaster.cpp.o"
 )

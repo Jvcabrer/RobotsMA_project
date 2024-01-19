@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/include/roboticsgroup_gazebo_plugins/disable_link_plugin.h
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/include/roboticsgroup_gazebo_plugins/disable_link_plugin.h
 ros/ros.h
 -
 boost/bind.hpp
@@ -20,7 +20,7 @@ gazebo/physics/physics.hh
 gazebo/common/common.hh
 -
 
-/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/src/disable_link_plugin.cpp
+/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/roboticsgroup_gazebo_plugins/src/disable_link_plugin.cpp
 roboticsgroup_gazebo_plugins/disable_link_plugin.h
 -
 

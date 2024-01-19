@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gripper_action_controller/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controllerConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controllerConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controllerConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/Gazebo_utils/ros_controllers/gripper_action_controller/catkin_generated/installspace/gripper_action_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gripper_action_controller" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gripper_action_controller" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgripper_action_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jose/Robots final project/catkin_ws/devel/lib/libgripper_action_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jose/Descargas/construct/catkin_ws/devel/lib/libgripper_action_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgripper_action_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgripper_action_controller.so")
     file(RPATH_CHANGE
@@ -76,10 +76,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gripper_action_controller" TYPE DIRECTORY FILES "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gripper_action_controller" TYPE DIRECTORY FILES "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/include/gripper_action_controller/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gripper_action_controller" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/ros_control_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gripper_action_controller" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/ros_controllers/gripper_action_controller/ros_control_plugins.xml")
 endif()
 

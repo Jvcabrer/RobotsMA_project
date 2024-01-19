@@ -1,4 +1,4 @@
-prefix=/home/jose/Robots final project/catkin_ws/install
+prefix=/home/jose/Descargas/construct/catkin_ws/install
 
 Name: path_navigation_msgs
 Description: Description of path_navigation_msgs

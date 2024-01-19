@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd"
-  "/home/jose/Robots final project/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd.pdb"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd"
+  "/home/jose/Descargas/construct/catkin_ws/devel/lib/gazebo_test_tools/fake_object_recognizer_cmd.pdb"
   "CMakeFiles/fake_object_recognizer_cmd.dir/test/fake_object_recognizer_cmd.cpp.o"
 )
 

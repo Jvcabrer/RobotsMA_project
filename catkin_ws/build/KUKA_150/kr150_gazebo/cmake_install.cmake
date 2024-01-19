@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/KUKA_150/kr150_gazebo
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/KUKA_150/kr150_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_gazebo/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazeboConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazeboConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazeboConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/KUKA_150/kr150_gazebo/catkin_generated/installspace/kr150_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_gazebo" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/KUKA_150/kr150_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kr150_gazebo" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/KUKA_150/kr150_gazebo/package.xml")
 endif()
 

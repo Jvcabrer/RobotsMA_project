@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support
+# Install script for directory: /home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/Robots final project/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jose/Descargas/construct/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_support.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_support.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr150_support/cmake" TYPE FILE FILES
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_supportConfig.cmake"
-    "/home/jose/Robots final project/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_supportConfig-version.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_supportConfig.cmake"
+    "/home/jose/Descargas/construct/catkin_ws/build/kuka_experimental/kuka_kr150_support/catkin_generated/installspace/kuka_kr150_supportConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr150_support" TYPE FILE FILES "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr150_support" TYPE FILE FILES "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr150_support" TYPE DIRECTORY FILES
-    "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support/config"
-    "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support/launch"
-    "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support/meshes"
-    "/home/jose/Robots final project/catkin_ws/src/kuka_experimental/kuka_kr150_support/urdf"
+    "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support/config"
+    "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support/launch"
+    "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support/meshes"
+    "/home/jose/Descargas/construct/catkin_ws/src/kuka_experimental/kuka_kr150_support/urdf"
     )
 endif()
 

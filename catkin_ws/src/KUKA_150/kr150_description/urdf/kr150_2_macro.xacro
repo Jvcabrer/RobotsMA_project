@@ -161,7 +161,10 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}link_1"/>
       <axis xyz="0 0 -1"/>
-      <limit effort="0" lower="${radians(-185)}" upper="${radians(185)}" velocity="${radians(110)}"/>
+      <limit effort="0" 
+      lower="${radians(-185)}" 
+      upper="${radians(185)}" 
+      velocity="${radians(110)}"/>
       <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 2 (A2) -->
@@ -170,7 +173,8 @@
       <parent link="${prefix}link_1"/>
       <child link="${prefix}link_2"/>
       <axis xyz="0 1 0"/>
-      <limit effort="0" lower="${radians(-146)}" upper="${radians(0)}" velocity="${radians(110)}"/>
+      <limit effort="0" 
+      lower="${radians(-146)}" upper="${radians(0)}" velocity="${radians(110)}"/>
       <dynamics damping="0.0" friction="0.0"/>
     </joint>
     <!-- joint 3 (A3) -->

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/jose/Robots final project/catkin_ws/devel/include/gazebo_test_tools/RecognizeGazeboObject.h"
+  "/home/jose/Descargas/construct/catkin_ws/devel/include/gazebo_test_tools/RecognizeGazeboObject.h"
   "CMakeFiles/gazebo_test_tools_generate_messages_cpp"
 )
 
