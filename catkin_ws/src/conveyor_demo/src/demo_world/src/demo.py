@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2.7
 
 import rospy, tf, rospkg, random
 from gazebo_msgs.srv import DeleteModel, SpawnModel, GetModelState
