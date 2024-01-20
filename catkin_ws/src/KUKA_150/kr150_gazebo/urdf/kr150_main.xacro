@@ -4,6 +4,7 @@
   <xacro:arg name="gripper_2f" default="false"/>
 
   <xacro:include filename="$(find kr150_gazebo)/urdf/gazebo.xacro"/>
+  <xacro:include filename="$(find kr150_gazebo)/urdf/banda.xacro"/>
 
   <!-- camera -->
   <xacro:if value="$(arg camera)">
