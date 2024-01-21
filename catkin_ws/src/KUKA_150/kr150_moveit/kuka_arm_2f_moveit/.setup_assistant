@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kr150_gazebo
+    relative_path: urdf/kr150_main.xacro
+    xacro_args: gripper_2f:=true
+  SRDF:
+    relative_path: config/kr150_main.srdf
+  CONFIG:
+    author_name: JoseCabrera
+    author_email: jvcabrer@espol.edu.ec
+    generated_timestamp: 1705824332

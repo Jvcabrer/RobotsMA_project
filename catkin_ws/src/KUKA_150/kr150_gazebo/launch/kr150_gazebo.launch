@@ -4,7 +4,9 @@
   <arg name="gui" default="true"/>
   <arg name="remap" default="false"/>
   <arg name="gripper_2f" default="false" />
-  <arg name="camera" default="false" />
+  <arg name="camera" default="true" />
+  <arg name="conveyor" default="false"/>
+  <arg name="conveyor_RED" default="false"/>
   
   <group if="$(arg remap)">
     <!-- remap topics to conform to ROS-I specifications -->
@@ -23,7 +25,7 @@
   <group unless="$(arg remap)">
     <!-- startup simulated world -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
-      <arg name="world_name" value="worlds/empty.world"/>
+      <arg name="world_name" value="$(find kr150_gazebo)/worlds/tables4conveyor.sdf"/>
       <arg name="gui" value="$(arg gui)"/>
       <arg name="paused" value="$(arg paused)"/>
     </include>
@@ -34,5 +36,7 @@
   <include file="$(find kr150_gazebo)/launch/spawn_kr150.launch">
     <arg name="camera" value="$(arg camera)"/>
     <arg name="gripper_2f" value="$(arg gripper_2f)"/>
+    <arg name="conveyor" value="$(arg conveyor)"/>
+    <arg name="conveyor_RED" value="$(arg conveyor_RED)"/>
   </include>  
 </launch>

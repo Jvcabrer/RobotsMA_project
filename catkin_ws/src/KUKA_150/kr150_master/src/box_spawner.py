@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import rospy, tf, rospkg, random
+import rospy, tf, rospkg
 from gazebo_msgs.srv import DeleteModel, SpawnModel, GetModelState
 from geometry_msgs.msg import Quaternion, Pose, Point
 
@@ -37,7 +37,7 @@ class CubeSpawner():
 		quat = tf.transformations.quaternion_from_euler(0,0,0)
 		orient = Quaternion(quat[0],quat[1],quat[2],quat[3])
 		#Donde se va a aubicar el objeto caja
-		pose = Pose(Point(x=0,y=-2,z=0.75), orient)
+		pose = Pose(Point(x=0,y=-2,z=1), orient)
 		self.sm("cube", cube_urdf, '', pose, 'world')
 		if self.col<2:
 			self.col += 1
@@ -62,10 +62,14 @@ if __name__ == "__main__":
 	rospy.wait_for_service("/gazebo/get_model_state")
 	r = rospy.Rate(15)
 	cs = CubeSpawner()
+	#service = ServiceProxy("/conveyor/control", ConveyorBeltState)
 	rospy.on_shutdown(cs.shutdown_hook)
 	while not rospy.is_shutdown():
 		if cs.checkModel()==False:
 			cs.spawnModel()
+			#response = rosservice.call("/conveyor/control", {"power": 20.0})
+			#response = service(20.0)
+			#rint(response)
 		elif cs.getPosition()<0.05:
 			cs.deleteModel()
 		r.sleep()
