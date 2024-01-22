@@ -21,16 +21,21 @@ waypoints = []
 pose_target = geometry_msgs.msg.Pose()
 pose_target.orientation.w = 1.0
 pose_target.position.x = 0
-pose_target.position.y = 2
-pose_target.position.z = 1
+pose_target.position.y = -2
+pose_target.position.z = 2
 
 waypoints.append(copy.deepcopy(pose_target))
+
+print("pose 1")
+print(pose_target.position.x)
+print(pose_target.position.y)
+print(pose_target.position.z)
 
 pose_target = geometry_msgs.msg.Pose()
 pose_target.orientation.w = 1.0
 pose_target.position.x = 0
 pose_target.position.y = -2
-pose_target.position.z = 1
+pose_target.position.z = 1.5
 
 waypoints.append(copy.deepcopy(pose_target))
 
@@ -40,7 +45,7 @@ pose_target.position.x = -0.5
 pose_target.position.y = 0.7
 pose_target.position.z = 1.2
 
-waypoints.append(copy.deepcopy(pose_target))
+#waypoints.append(copy.deepcopy(pose_target))
 
 pose_target = geometry_msgs.msg.Pose()
 pose_target.orientation.w = 1.0
@@ -48,7 +53,7 @@ pose_target.position.x = 0.5
 pose_target.position.y = 0.7
 pose_target.position.z = 1.2
 
-waypoints.append(copy.deepcopy(pose_target))
+#waypoints.append(copy.deepcopy(pose_target))
 
 #pose_target = geometry_msgs.msg.Pose()
 #pose_target.orientation.w = 1.0
@@ -65,7 +70,7 @@ pose_target.position.x = 0.5
 pose_target.position.y = -0.5
 pose_target.position.z = 1.18
 
-waypoints.append(copy.deepcopy(pose_target))
+#waypoints.append(copy.deepcopy(pose_target))
 
 
 # We want the Cartesian path to be interpolated at a resolution of 1 cm

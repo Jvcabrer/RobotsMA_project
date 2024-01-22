@@ -15,3 +15,5 @@ controller_list:
 initial:  # Define initial robot poses per group
   - group: kuka_arm
     pose: home_off
+  - group: gripper
+    pose: open_gripper
