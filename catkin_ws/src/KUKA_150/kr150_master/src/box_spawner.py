@@ -38,7 +38,7 @@ class CubeSpawner():
 		orient = Quaternion(quat[0],quat[1],quat[2],quat[3])
 		#Donde se va a aubicar el objeto caja
 		# 0.75 
-		pose = Pose(Point(x=0 ,y=2,z=1), orient)
+		pose = Pose(Point(x=0 ,y=-2,z=1), orient)
 		self.sm("cube", cube_urdf, '', pose, 'world')
 		if self.col<2:
 			self.col += 1
@@ -72,6 +72,7 @@ if __name__ == "__main__":
 			#response = service(20.0)
 			#rint(response)
 		elif cs.getPosition()<0.05:
+		#elif ciclo_completado:
 			cs.deleteModel()
 		r.sleep()
 		

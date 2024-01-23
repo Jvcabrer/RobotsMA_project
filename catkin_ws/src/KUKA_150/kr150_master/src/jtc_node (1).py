@@ -59,13 +59,14 @@ class ColorBasedController(object):
         # Determine the detected color
         detected_color = ""
         if np.sum(mask_g) > np.sum(mask_r) and np.sum(mask_g) > np.sum(mask_b):
-            detected_color = "verde"
+            detected_color = "green"
         elif np.sum(mask_r) > np.sum(mask_g) and np.sum(mask_r) > np.sum(mask_b):
-            detected_color = "rojo"
+            detected_color = "red"
         elif np.sum(mask_b) > np.sum(mask_g) and np.sum(mask_b) > np.sum(mask_r):
-            detected_color = "azul"
-
-        print("La caja es de color " + detected_color)
+            detected_color = "blue"
+        else:
+            detected_color = "none"        
+        print("Detected color " + detected_color)
 
         # Perform trajectory based on detected color
         self.perform_trajectory(detected_color)
@@ -76,6 +77,7 @@ class ColorBasedController(object):
         # Define trajectory for each color
         if detected_color == "verde":
             goal_positions = [0, -0.5, 0.5, 0, 1.5, 0]
+
         elif detected_color == "rojo":
             goal_positions = [0, -0.5, 1, 0, 1, 0]
         elif detected_color == "azul":
