@@ -61,13 +61,16 @@ class ColorFilter(object):
         # Determine the detected color
         detected_color = ""
         if np.sum(mask_g) > np.sum(mask_r) and np.sum(mask_g) > np.sum(mask_b):
-            detected_color = "verde"
+            detected_color = "green"
         elif np.sum(mask_r) > np.sum(mask_g) and np.sum(mask_r) > np.sum(mask_b):
-            detected_color = "rojo"
+            detected_color = "red"
         elif np.sum(mask_b) > np.sum(mask_g) and np.sum(mask_b) > np.sum(mask_r):
-            detected_color = "azul"
+            detected_color = "blue"
+        else:
+            detected_color = "none"        
+        print("Detected color " + detected_color)
 
-        print("La caja es de color " + detected_color)
+        
             
 
 

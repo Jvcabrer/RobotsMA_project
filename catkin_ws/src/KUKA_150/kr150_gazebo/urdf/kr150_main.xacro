@@ -3,7 +3,7 @@
   <xacro:arg name="camera" default="true"/>
   <xacro:arg name="gripper_2f" default="false"/>
   <xacro:arg name="conveyor" default="false"/>
-  <xacro:arg name="conveyor_RED" default="false"/>
+  <!--<xacro:arg name="conveyor_RED" default="false"/>-->
 
 
   <xacro:include filename="$(find kr150_gazebo)/urdf/gazebo.xacro"/>
@@ -24,9 +24,9 @@
     <xacro:include filename="$(find kr150_gazebo)/urdf/banda.xacro"/>
   </xacro:if>
 
-  <!-- conveyor RED-->
+  <!-- conveyor RED
   <xacro:if value="$(arg conveyor_RED)">
     <xacro:include filename="$(find kr150_gazebo)/urdf/banda_RED.xacro"/>
-  </xacro:if>
+  </xacro:if>-->
 
 </robot>

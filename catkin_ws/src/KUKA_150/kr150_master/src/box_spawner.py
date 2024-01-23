@@ -37,7 +37,8 @@ class CubeSpawner():
 		quat = tf.transformations.quaternion_from_euler(0,0,0)
 		orient = Quaternion(quat[0],quat[1],quat[2],quat[3])
 		#Donde se va a aubicar el objeto caja
-		pose = Pose(Point(x=0,y=-2,z=1), orient)
+		# 0.75 
+		pose = Pose(Point(x=0 ,y=2,z=1), orient)
 		self.sm("cube", cube_urdf, '', pose, 'world')
 		if self.col<2:
 			self.col += 1

@@ -34,14 +34,6 @@
         <joint name="joint_a5" value="0"/>
         <joint name="joint_a6" value="0"/>
     </group_state>
-    <group_state name="lift_0" group="kuka_arm">
-        <joint name="joint_a1" value="1.57"/>
-        <joint name="joint_a2" value="-1.15"/>
-        <joint name="joint_a3" value="1.3"/>
-        <joint name="joint_a4" value="0"/>
-        <joint name="joint_a5" value="1.1"/>
-        <joint name="joint_a6" value="0"/>
-    </group_state>
     <group_state name="lift_home" group="kuka_arm">
         <joint name="joint_a1" value="0"/>
         <joint name="joint_a2" value="-1.15"/>
@@ -55,6 +47,70 @@
     </group_state>
     <group_state name="closed_gripper" group="gripper">
         <joint name="finger_joint" value="0.8"/>
+    </group_state>
+    <group_state name="lift_conveyor" group="kuka_arm">
+        <joint name="joint_a1" value="1.57"/>
+        <joint name="joint_a2" value="-1.117"/>
+        <joint name="joint_a3" value="1.15192"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.53589"/>
+        <joint name="joint_a6" value="0"/>
+    </group_state>
+    <group_state name="pick_conveyor" group="kuka_arm">
+        <joint name="joint_a1" value="1.57"/>
+        <joint name="joint_a2" value="-1.0472"/>
+        <joint name="joint_a3" value="1.37881"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.23918"/>
+        <joint name="joint_a6" value="0"/>
+    </group_state>
+    <group_state name="lift_green" group="kuka_arm">
+        <joint name="joint_a1" value="-0.715585"/>
+        <joint name="joint_a2" value="-0.820305"/>
+        <joint name="joint_a3" value="0.663225"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.71042"/>
+        <joint name="joint_a6" value="0.837758"/>
+    </group_state>
+    <group_state name="place_green" group="kuka_arm">
+        <joint name="joint_a1" value="-0.715585"/>
+        <joint name="joint_a2" value="-0.785398"/>
+        <joint name="joint_a3" value="0.942478"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.41372"/>
+        <joint name="joint_a6" value="0.837758"/>
+    </group_state>
+    <group_state name="lift_blue" group="kuka_arm">
+        <joint name="joint_a1" value="-2.42601"/>
+        <joint name="joint_a2" value="-0.820305"/>
+        <joint name="joint_a3" value="0.663225"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.7301"/>
+        <joint name="joint_a6" value="2.37365"/>
+    </group_state>
+    <group_state name="place_blue" group="kuka_arm">
+        <joint name="joint_a1" value="-2.426"/>
+        <joint name="joint_a2" value="-0.802851"/>
+        <joint name="joint_a3" value="0.925025"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.43117"/>
+        <joint name="joint_a6" value="2.37365"/>
+    </group_state>
+    <group_state name="lift_red" group="kuka_arm">
+        <joint name="joint_a1" value="-1.57"/>
+        <joint name="joint_a2" value="-1.11701"/>
+        <joint name="joint_a3" value="1.15192"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.6057"/>
+        <joint name="joint_a6" value="0"/>
+    </group_state>
+    <group_state name="place_red" group="kuka_arm">
+        <joint name="joint_a1" value="-1.57"/>
+        <joint name="joint_a2" value="-1.0821"/>
+        <joint name="joint_a3" value="1.37881"/>
+        <joint name="joint_a4" value="0"/>
+        <joint name="joint_a5" value="1.25664"/>
+        <joint name="joint_a6" value="0"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="ee_grip" parent_link="tool0" group="gripper" parent_group="kuka_arm"/>
