@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>  
 
-  <arg name="gripper_2f" default="false" />
+  <arg name="gripper_2f" default="true" />
   <arg name="camera" default="true" />
   <arg name="conveyor" default="false" />
   <!--<arg name="conveyor_RED" default="false" />-->

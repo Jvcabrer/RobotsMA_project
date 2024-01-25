@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="kuka_kr150_gazebo" xmlns:xacro="http://wiki.ros.org/xacro">
-  <!-- KR10 -->
+  <!-- KR150 -->
   <xacro:include filename="$(find kr150_gazebo)/urdf/gazebo_transmission.xacro"/>
   
   <xacro:kuka_kr150_2_robot prefix=""/>

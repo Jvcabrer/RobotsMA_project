@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="gripper" xmlns:xacro="http://wiki.ros.org/xacro">
-  <!-- KR10 -->
+  <!-- KR150 -->
   
   <transmission name="trans_left_inner_knuckle_joint">
         <type>transmission_interface/SimpleTransmission</type>
@@ -91,7 +91,7 @@
   <gazebo>
     <plugin filename="libgazebo_grasp_fix.so" name="gazebo_grasp_fix">
       <arm>
-        <arm_name>kuka_kr10</arm_name>
+        <arm_name>kuka_kr150_2_robot</arm_name>
         <palm_link>link_6</palm_link>
         <gripper_link>left_outer_knuckle</gripper_link>
         <gripper_link>right_outer_knuckle</gripper_link>

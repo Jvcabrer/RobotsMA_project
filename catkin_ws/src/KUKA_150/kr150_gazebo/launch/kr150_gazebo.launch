@@ -3,7 +3,7 @@
   <arg name="paused" default="false"/>
   <arg name="gui" default="true"/>
   <arg name="remap" default="false"/>
-  <arg name="gripper_2f" default="false" />
+  <arg name="gripper_2f" default="true" />
   <arg name="camera" default="true" />
   <arg name="conveyor" default="false"/>
   <!--<arg name="conveyor_RED" default="false"/>-->

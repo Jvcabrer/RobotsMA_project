@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="kr150_main" xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:arg name="camera" default="true"/>
-  <xacro:arg name="gripper_2f" default="false"/>
+  <xacro:arg name="gripper_2f" default="true"/>
   <xacro:arg name="conveyor" default="false"/>
   <!--<xacro:arg name="conveyor_RED" default="false"/>-->
 
