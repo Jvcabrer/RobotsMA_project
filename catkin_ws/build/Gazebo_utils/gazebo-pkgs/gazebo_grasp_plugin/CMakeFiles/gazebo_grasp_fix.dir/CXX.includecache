@@ -56,26 +56,6 @@ gazebo_version_helpers/GazeboVersionHelpers.h
 msgs/grasp_event.pb.h
 -
 
-/home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp
-boost/bind.hpp
--
-gazebo/gazebo.hh
--
-gazebo/physics/physics.hh
--
-gazebo/physics/ContactManager.hh
--
-gazebo/physics/Contact.hh
--
-gazebo/common/common.hh
--
-stdio.h
--
-gazebo_grasp_plugin/GazeboGraspGripper.h
--
-gazebo_version_helpers/GazeboVersionHelpers.h
--
-
 /home/jose/Descargas/construct/catkin_ws/src/Gazebo_utils/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
 gazebo/gazebo.hh
 -
