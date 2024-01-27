@@ -15,6 +15,7 @@ sudo apt-get install ros-noetic-object-recognition-msgs
 Repositories needed:
 
 git clone https://github.com/javierpagalo/Gazebo_utils.git
+
 git clone https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins.git
 
 
