@@ -18,6 +18,8 @@ git clone https://github.com/javierpagalo/Gazebo_utils.git
 
 git clone https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins.git
 
+We STRONGLY recommend unzipping the Robotiq-grippers.zip file instead of clonning the repository, but both are provided:
+git clone https://github.com/fryumbla/Robotiq-grippers.git
 
 Install dependencies needed:
 
